@@ -1,3 +1,4 @@
+/* Used a complementary color harmony for teal (#4aaaa5) */
 body {
     margin: 0;
     padding: 0;
@@ -132,11 +133,20 @@ input[type="submit"] {
     margin: 20px;
 }
 
-.portfolio figcaption {
+.portfolio p {
     background-color: #4aaaa5;
     color:#ffffff;
     position: absolute;
     padding: 10px 0;
-    bottom: 40px;
+    bottom: 20px;
     width: 100%;
+}
+
+.portfolio a:hover p, input[type="submit"]:hover {
+    background-color: #1f5d5a;
+    cursor: pointer;
+}
+
+.portfolio a:hover img {
+    opacity: 0.8;
 }
