@@ -1,4 +1,3 @@
-/* Required styles */
 body {
     margin: 0;
     padding: 0;
@@ -119,4 +118,20 @@ input[type="submit"] {
     background-color: #4aaaa5;
     padding: 12px 24px;
     border: none;
+}
+
+.portfolio {
+    float: left;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+
+.portfolio figcaption {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    position: absolute;
+    padding: 10px 0;
+    bottom: 40px;
+    width: 100%;
 }
