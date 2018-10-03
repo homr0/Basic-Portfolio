@@ -140,6 +140,10 @@ input[type="submit"] {
     margin: 20px;
 }
 
+.portfolio img {
+    max-width: 100%;
+}
+
 .portfolio p {
     background-color: #4aaaa5;
     color:#ffffff;
