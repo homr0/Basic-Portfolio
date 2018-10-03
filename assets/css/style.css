@@ -152,7 +152,7 @@ input[type="submit"] {
     color:#ffffff;
     position: absolute;
     padding: 10px 0;
-    bottom: 20px;
+    bottom: 0;
     width: 100%;
 }
 
