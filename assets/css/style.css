@@ -98,6 +98,9 @@ main h2 {
 main hr {
     width: calc(100% - 40px);
     margin: 20px auto;
+    height: 2px;
+    background-color: #cccccc;
+    border: none;
 }
 
 main p, main form {
